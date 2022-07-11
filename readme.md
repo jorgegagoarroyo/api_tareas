@@ -7,3 +7,6 @@ con una base de datos en mongo
 se trabaja tanto en el frontend de la aplicacion
 como en el backend de la misma creando una api
 
+**funcionamiento**
+
+desde una terminal en la caperta usamos el comando npm run dev
