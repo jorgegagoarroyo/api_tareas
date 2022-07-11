@@ -9,4 +9,4 @@ como en el backend de la misma creando una api
 
 **funcionamiento**
 
-desde una terminal en la caperta usamos el comando npm run dev
+desde una terminal en la caperta usamos el comando **npm run start**
