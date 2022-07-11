@@ -124,6 +124,18 @@ async function borrarTarea(x){
     pintarLista()
 }
 
+async function borraTodos(){
+    let options = {
+        method: "DELETE",
+        json:true
+    }
+    let tarea = await fetch(`http://localhost:5000/api/tareas`, options)
+
+    pintarLista()
+    let resp = await tarea.json()
+    console.log(resp)
+}
+
 async function editarTarea (x){
     console.log("selec")
     let options = {

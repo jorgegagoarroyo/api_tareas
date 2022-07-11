@@ -59,6 +59,16 @@ module.exports = {
         }
     },
 
+    borrartodo : async (req, res)=>{
+        let id = req.params.id
+        try{
+            await m_tareas.remove()
+            res.json({mensaje: "todas las tareas borradas"})
+        }catch(error){
+            res.json({mensaje: "error al borrar las tareas: "+error})
+        }
+    },
+
     tarea : async (req, res)=>{
         let id = req.params.id
         try{

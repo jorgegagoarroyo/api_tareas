@@ -4,10 +4,11 @@ const areaTareas = document.querySelector(".tareas")
 
 nueva.addEventListener("click", ()=>{
     //crear()
-    formulario(1)
+    formulario(true)
 })
 
 delAll.addEventListener("click", ()=>{
+    console.log("borrar todas las tareas")
     borraTodos()
 })
 
